@@ -7,8 +7,9 @@ body {
     background-size: 100% 100%;
 }
 
-nav a{
-    color: whitesmoke;
+nav a {
+    color: white;
+    text-shadow: 4px 5px purple;
 }
 
 nav #name {
@@ -26,7 +27,7 @@ nav #about, #project, #contact {
 }
 
 nav a:hover {
-    color: wheat;
+    color: lightsalmon;
 }
 
 #container {
@@ -50,11 +51,12 @@ nav a:hover {
 }
 
 #text {
-    color: black;
-    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px orangered;
+    font-size: 30px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 70%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }

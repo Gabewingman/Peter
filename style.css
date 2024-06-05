@@ -7,8 +7,8 @@ body {
 }
 
 nav a {
-    /* color: black; */
-    color: whitesmoke;
+    color: white;
+    text-shadow: 4px 5px purple;
     text-decoration: none;
 }
 
@@ -65,10 +65,8 @@ nav {
 
 #text {
     color: white;
-    text-shadow: 2px 2px black;
-    border: 1px solid;
+    text-shadow: 2px 2px orangered;
     padding: 20px;
-    background:brown;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -81,5 +79,9 @@ button {
     background: whitesmoke;
     color: black;
     font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    color: red;
 }
   
