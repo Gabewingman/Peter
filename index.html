@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Gabgab2.jpg">
+</head>
+<body>
+    
+    <div>
+        <nav style="display: flex; justify-content: space-evenly;">
+            <img src="images/Gabgab2.jpg" alt="Gab" height="50px"  style="border: 1px solid black;">
+
+            <a id="name" href="index.html">Peter Gabriel Bersamina</a>
+            <a id="about" href="About.html">About Me</a>
+            <a id="project" href="#">Projects Gallery</a>
+            <a id="contact" href="#">Contact</a>
+        
+        </nav>
+    </div>
+
+    <div id="image" style="display: flex; justify-content:space-evenly; align-items: center; margin: 20px 10px 20px; font-family: 'Courier New', Courier, monospace; ">
+
+        <div id="container">
+            <a target="_blank" href="https://www.theodinproject.com/">
+                <img src="images/Gabsakalam.png" alt="Gabriel" height="550px">
+
+                <div id="overlay">
+                    <div id="text" style="display: flex; align-items: center;">
+                        <strong>Want to learn Web Development?<br><br>Click me!</strong>
+                        <img src="images/click.gif" alt="click" width="120px">
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <h2 style="color: whitesmoke; border: 3px solid black; padding: 8px; padding: 10px 6px 10px 30px; background: lightseagreen; margin: 30px;">
+            
+            <i>"<span style="color: wheat;"><u>Consistency is the key</u></span> when you get into tech.<span style="color: lightcoral;">Think it, do it and make it a hobby.</span>"<br><br>- webdev, Gab</i>
+        
+            <div class="option" style="padding-top: 20px; margin: 0;">
+                <button id="button1" onclick="agree()" style="padding: 5px 20px; border-radius: 8px;">Are you one? 😊</button>
+                <button id="button2" onclick="decide()" style="padding: 5px 20px; border-radius: 8px;">You want to be one? 🤔</button>
+            </div>
+        </h2>
+    </div>
+
+    <footer style="background: whitesmoke; padding: 5px; text-align: center;">
+        <p>&copy; 2024 Peter Gabriel Bersamina</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

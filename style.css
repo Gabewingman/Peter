@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: url(images/Coding.jpg);
+    background-size: 100% 100%;
+}
+
+nav a {
+    /* color: black; */
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:wheat;
+}
+
+nav #name {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav #about, #project, #contact {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+a {
+    padding: 10px;
+    color: whitesmoke;
+}
+
+nav {
+    margin: 10px;
+}
+
+#image {
+    /* background: url(images/Coding.jpg); */
+    background-size: 100% 100%;
+}
+
+#container {
+    position: relative;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    }
+
+#container:hover #overlay {
+    opacity: 1;
+}
+
+#text {
+    color: white;
+    text-shadow: 2px 2px black;
+    border: 1px solid;
+    padding: 20px;
+    background:brown;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+button {
+    background: whitesmoke;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
